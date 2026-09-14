@@ -4,7 +4,6 @@
 
   const pages = [
     { href: 'index.html', label: 'Home', id: 'index' },
-    { href: 'bio.html', label: 'Bio', id: 'bio' },
     { href: 'cv.html', label: 'CV', id: 'cv' },
     { href: 'teaching.html', label: 'Teaching', id: 'teaching' },
     { href: 'research.html', label: 'Research', id: 'research' },
