@@ -4,9 +4,8 @@
 
   const pages = [
     { href: 'index.html', label: 'Home', id: 'index' },
-    { href: 'cv.html', label: 'CV', id: 'cv' },
-    { href: 'teaching.html', label: 'Teaching', id: 'teaching' },
     { href: 'research.html', label: 'Research', id: 'research' },
+    { href: 'teaching.html', label: 'Teaching', id: 'teaching' },
   ];
 
   const linksHtml = pages.map(p => {
@@ -32,7 +31,6 @@
   <p>Marisa Cameron &middot; Economics &middot; <a href="mailto:marisa.cameron@pomona.edu">marisa.cameron@pomona.edu</a></p>
 </footer>`;
 
-  // Insert nav before body content
   document.body.insertAdjacentHTML('afterbegin', navHtml);
   document.body.insertAdjacentHTML('beforeend', footerHtml);
 })();
